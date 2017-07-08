@@ -1,0 +1,14 @@
+.form {
+  text-align: center;
+  margin: auto;
+
+}
+input {
+  display: inline-block;
+}
+.logo img {
+  width: 33%;
+  display: block;
+  margin: auto;
+  padding-top: 15%;
+}
