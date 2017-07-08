@@ -1,11 +1,18 @@
-.form {
-  text-align: center;
-  margin: auto;
+#textbox {
+  width: 50%;
 
 }
+
+.form {
+
+  text-align: center;
+}
+
 input {
+  margin-top: 20px;
   display: inline-block;
 }
+
 .logo img {
   width: 33%;
   display: block;
