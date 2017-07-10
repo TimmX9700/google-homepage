@@ -1,14 +1,31 @@
 #textbox {
-  width: 50%;
+  width: 45%;
+  box-shadow: 3px 3px #ddd;
+}
 
+#signin {
+  background-color: #4286f4;
+  color: white;
+  border-radius: 8%;
+  padding: 3px 10px;
 }
 
 .form {
-
   text-align: center;
 }
 
+button {
+  border: none;
+  background-color: white;
+  font-size: 18px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
 input {
+  padding: 5px 5px;
   margin-top: 20px;
   display: inline-block;
 }
@@ -18,4 +35,29 @@ input {
   display: block;
   margin: auto;
   padding-top: 15%;
+}
+
+.header {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  text-align: right;
+  padding: 1em;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+}
+
+.rightfooter {
+  float: right;
+}
+
+.leftfooter {
+  float: left;
 }
